@@ -1,0 +1,337 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-181239275-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-181239275-1');
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="css/fontawesome/all.min.css" />
+    <link rel="stylesheet" href="css/fontawesome/brands.min.css" />
+    <link rel="preload" href="fonts/fontawesome/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/fontawesome/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/fontawesome/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+    <!-- main css -->
+    <link rel="stylesheet" href="css/main/main.css" />
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <title>Resources and Insights | SafeDZone</title>
+    <meta name="description" content="Improve health and safety outcomes with a robust and easy to use software platform and connected smart devices. COVID-19 screening, contact tracing, social distance wearables, occupancy and sanitation tracking. SafeDZone." />
+    <meta property="og:title" content="Resources and Insights | SafeDZone" />
+    <meta property="og:description" content="Improve health and safety outcomes with a robust and easy to use software platform and connected smart devices. COVID-19 screening, contact tracing, social distance wearables, occupancy and sanitation tracking. SafeDZone." />
+    <meta property="og:image" content="img/logo.png" />
+    <meta property="og:url" content="https://www.safedzone.com" />
+    <meta property="og:site_name" content="SafeDZone" />
+    <meta property="og:type" content="website" />
+    <meta name="keywords" content="Health Screening, COVID-19 Screening, COVID-19 Safety" />
+    <meta name="google-site-verification" content="KeABXdbR5J2s8uMczE6aiUH4RrSxXJA2JodOoCrbxwE" />
+    <style>
+        .page-timeline {
+            margin: 30px auto 0 auto;
+            position: relative;
+            max-width: 1000px;
+        }
+
+            .page-timeline:before {
+                position: absolute;
+                content: '';
+                top: 0;
+                bottom: 0;
+                left: 303px;
+                right: auto;
+                height: 100%;
+                width: 0px;
+                background: #ffffff;
+                z-index: 0;
+                -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2),0 6px 10px 0 rgba(0,0,0,0.3);
+                box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2),0 6px 10px 0 rgba(0,0,0,0.3);
+            }
+
+            .page-timeline:after {
+                position: absolute;
+                content: '';
+                width: 0px;
+                height: 40px;
+                background: #ffffff;
+                background: -webkit-linear-gradient(top, #4782d3, rgba(52, 152, 219, 0));
+                background: linear-gradient(to bottom, #4782d3, rgba(52, 152, 219, 0));
+                top: 100%;
+                left: 303px;
+                -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2),0 6px 10px 0 rgba(0,0,0,0.3);
+                box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2),0 6px 10px 0 rgba(0,0,0,0.3);
+            }
+
+        .vtimeline-content {
+            margin-left: 0px;
+            background: #fff;
+            border: 1px solid #e6e6e6;
+            padding: 35px 20px;
+            border-radius: 3px;
+            text-align: left;
+            -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2),0 6px 10px 0 rgba(0,0,0,0.3);
+            box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2),0 6px 10px 0 rgba(0,0,0,0.3);
+        }
+
+            .vtimeline-content h3 {
+                font-size: 1.5em;
+                font-weight: 600;
+                display: inline-block;
+                margin: 0;
+            }
+
+            .vtimeline-content p {
+                font-size: 0.9em;
+                margin: 0;
+            }
+
+        .vtimeline-point {
+            position: relative;
+            display: block;
+            vertical-align: top;
+            margin-bottom: 30px;
+        }
+
+        .vtimeline-icon {
+            position: relative;
+            color: #fff;
+            width: 50px;
+            height: 50px;
+            background: #4782d3;
+            border-radius: 50%;
+            float: left;
+            text-align: center;
+            line-height: 50px;
+            z-index: 99;
+            margin-left: 280px;
+        }
+
+            .vtimeline-icon i {
+                display: block;
+                font-size: 1.5em;
+                line-height: 50px;
+            }
+
+        .vtimeline-date {
+            width: 260px;
+            text-align: right;
+            position: absolute;
+            left: 0;
+            top: 10px;
+            font-weight: 400;
+            color: #374054;
+        }
+
+        .post-meta {
+            padding-top: 15px;
+            margin-bottom: 20px;
+        }
+
+            .post-meta li:not(:last-child) {
+                margin-right: 10px;
+            }
+
+        h3 {
+            font-family: "Montserrat", sans-serif;
+            color: #252525;
+            font-weight: 700;
+            font-variant-ligatures: common-ligatures;
+            margin-top: 0;
+            letter-spacing: -0.2px;
+            line-height: 1.3;
+        }
+
+        .mb20 {
+            margin-bottom: 20px !important;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light container-fluid fixed-top bg-white">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" class="img-fluid" alt="SafeDZone Logo" />
+            </a>
+            <button class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarTogglerDemo03"
+                    aria-controls="navbarTogglerDemo03"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav align-items-center ml-auto">
+                    <li class="nav-item">
+                        <a href="index.html#getstarted" class="nav-link">GET STARTED</a>
+                    </li>
+                    <li class="nav-item">
+                        <span class="nav-item-partition">|</span>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#howitworks" class="nav-link">HOW IT WORKS</a>
+                    </li>
+                    <li class="nav-item">
+                        <span class="nav-item-partition">|</span>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#whoweserve" class="nav-link">OUR CLIENTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <span class="nav-item-partition">|</span>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#why" class="nav-link">WHY SafeDZone</a>
+                    </li>
+                    <li class="nav-item">
+                        <span class="nav-item-partition">|</span>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link">Resources</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section__generic">
+        <div class="container">
+            <div class="container mb80">
+                <div class="page-timeline">
+                    <h1>Resources and Insights</h1><br />
+                    <div class="vtimeline-point">
+                        <div class="vtimeline-block">
+                            <div class="vtimeline-content">
+                                <img src="img/blog/blog-taiwan-1.jpg" alt="" class="img-fluid mb20"><br />
+                                <h3>Taiwan’s Model for Combating COVID-19: A Small Island with Big Data</h3>
+                                <p style="font-weight:bold; padding-bottom:10px; padding-top:10px;">
+                                    source: Middle East Institute
+                                </p>
+                                <p style="padding-bottom:20px;">
+                                    Big success on a small island. How Taiwan has been combating COVID-19 and what we can learn from them.
+                                </p>
+                                <a href="https://www.mei.edu/publications/taiwans-model-combating-covid-19-small-island-big-data" class="btn btn-outline-secondary btn-sm" target="_blank">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vtimeline-point">
+                        <div class="vtimeline-block">
+                            <div class="vtimeline-content">
+                                <img src="img/blog/blog-who-1.png" alt="" class="img-fluid mb20"><br />
+                                <h3>Let’s flatten the infodemic curve</h3>
+                                <p style="font-weight:bold; padding-bottom:10px; padding-top:10px;">
+                                    source: World Health Organization
+                                </p>
+                                <p style="padding-bottom:20px;">
+                                    We are all being exposed to a huge amount of COVID-19 information on a daily basis, and not all of it is reliable. Here are some tips for telling the difference and stopping the spread of misinformation.
+                                </p>
+                                <a href="https://www.who.int/news-room/spotlight/let-s-flatten-the-infodemic-curve" class="btn btn-outline-secondary btn-sm" target="_blank">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vtimeline-point">
+                        <div class="vtimeline-block">
+                            <div class="vtimeline-content">
+                                <div class="embed-responsive embed-responsive-21by9 mb20">
+                                    <iframe src="https://www.youtube.com/embed/eh9jEpa63iY" style="position:absolute;width:100%;height:100%;left:0" width="640" height="360" frameborder="0" allowfullscreen=""></iframe>
+                                </div>
+                                <h3>Coronavirus: Coping And Maintaining Your Well-Being</h3>
+                                <p style="font-weight:bold; padding-bottom:10px; padding-top:10px;">
+                                    source: AARP
+                                </p>
+                                <p>
+                                    Q&A event that focuses on the ongoing concerns about protecting ourselves and loved ones.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vtimeline-point">
+                        <div class="vtimeline-block">
+                            <div class="vtimeline-content">
+                                <img src="img/blog/blog-cnn-1.jfif" alt="" class="img-fluid mb20"><br />
+                                <h3>Choosing the best mask to protect you and others</h3>
+                                <p style="font-weight:bold; padding-bottom:10px; padding-top:10px;">
+                                    source: CNN
+                                </p>
+                                <p style="padding-bottom:20px;">
+                                    It's official -- wearing a mask not only protects others from your expelled respiratory droplets, it protects you as well, according to new guidance from the US Centers for Disease Control and Prevention.
+                                </p>
+                                <a href="https://www.cnn.com/2020/11/11/health/cdc-face-mask-guidelines-wellness/index.html" class="btn btn-outline-secondary btn-sm" target="_blank">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vtimeline-point">
+                        <div class="vtimeline-block">
+                            <div class="vtimeline-content">
+                                <div class="embed-responsive embed-responsive-21by9 mb20">
+                                    <iframe src="https://www.youtube.com/embed/A6d6QqwzIug" style="position:absolute;width:100%;height:100%;left:0" width="640" height="360" frameborder="0" allowfullscreen=""></iframe>
+                                </div>
+                                <h3>COVID-19 emergency</h3>
+                                <p style="font-weight:bold; padding-bottom:10px; padding-top:10px;">
+                                    source: ABC News
+                                </p>
+                                <p>
+                                    There are new crackdowns around the nation as cases and hospitalizations soar.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 text-md-center">
+                    <img src="img/logo.png" class="mb-4 mb-md-0" alt="SafeDZone Logo">
+                </div>
+                <div class="col-lg-5 col-md-6">
+                    <h6 class="heading__footer mb-3">GET IN TOUCH:</h6>
+                    <a href="mailto:customercare@safedzone.com" class="footer__link mb-2">
+                        <span class="footer__link__icon">
+                            <i class="fa fa-envelope"></i>
+                        </span>
+                        <p>customercare@safedzone.com</p>
+                    </a>
+                    <a href="https://www.linkedin.com/company/safe-d-zone" class="footer__link mb-2">
+                        <span class="footer__link__icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </span>
+                        <p>linkedin</p>
+                    </a>
+                    <a href="https://www.facebook.com/SafeDZone/" class="footer__link mb-4 mb-lg-0">
+                        <span class="footer__link__icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </span>
+                        <p>facebook</p>
+                    </a>
+                </div>
+                <div class="col-lg-3 text-md-center">
+                    <p class="footer__copyright">&copy;2020 by SafeDZone</p> <br />
+                    <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Use</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Start of HubSpot Embed Code -->
+    <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/8017974.js"></script>
+    <!-- End of HubSpot Embed Code -->
+</body>
+</html>

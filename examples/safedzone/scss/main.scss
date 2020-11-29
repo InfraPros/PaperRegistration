@@ -1,0 +1,18 @@
+@charset "UTF-8";
+// Google font Heebo
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&display=swap');
+
+// Base
+@import "base/variables";
+@import "mixins/mixins.media";
+@import "base/page";
+@import "base/typography";
+
+
+// Components
+@import "components/navbar";
+@import "components/hero";
+@import "components/sections";
+@import "components/lists";
+@import "components/buttons";
+@import "components/footer";

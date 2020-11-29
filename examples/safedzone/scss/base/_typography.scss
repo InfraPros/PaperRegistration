@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "Raleway";
+
+  src: url("../../fonts/raleway/Raleway-Medium.woff") format("woff"), /* Modern Browsers */
+    url("../../fonts/raleway/Raleway-Medium.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway";
+
+  src: url("../../fonts/raleway/Raleway-Regular.woff") format("woff"), /* Modern Browsers */
+    url("../../fonts/raleway/Raleway-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: 400;
+  font-style: normal;
+}
+.heading{
+  &__section{
+    font-size: 45px;
+    font-weight: normal;
+    text-transform: uppercase;
+    @include hd{
+      font-size: 35px;
+    }
+    @include laptop-sm{
+      font-size: 28px;
+    }
+    @include phone{
+      font-size: 22px;
+    }
+    
+  }
+  &__medium{
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 100%;
+    @include hd{
+      font-size: 30px;
+    }
+    @include laptop-sm{
+      font-size: 25px;
+    }
+    @include phone{
+      font-size: 20px;
+    }
+  }
+  &__footer{
+    font-size: 23px;
+    font-weight: 500;
+  }
+}
+.text{
+  &__body{
+    font-size: 25px;
+    font-weight: 300;
+    color: $body;
+    margin-bottom: 0;
+    line-height: 120%;
+    @include hd{
+      font-size: 20px;
+    }
+    @include laptop-sm{
+      font-size: 16px;
+    }
+  }
+  &__subheading{
+    font-size: 30px;
+    line-height: 120%;
+    @include hd{
+      font-size: 25px;
+    }
+    @include laptop-sm{
+      font-size: 20px;
+    }
+    @include tablet{
+      font-size: 18px;
+    }
+  }
+  // colors
+  &__light-blue{
+    color: $light-blue!important;
+  }
+}

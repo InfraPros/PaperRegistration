@@ -1,0 +1,43 @@
+.hero {
+	background: no-repeat url("../../img/hero-bg.png");
+	background-size: cover;
+	background-position: bottom;
+	min-height: calc(100vh - 89px);
+	padding: 222px 0;
+	margin-top: 89px;
+	@include laptop-sm{
+		padding: 111px 0;
+	}
+	@include phone {
+		margin-top: 61px;
+	}
+	@include phone{
+		min-height: unset;
+	}
+	&__heading {
+		color: $white;
+		font-weight: 500;
+		font-size: 56px;
+		max-width: 670px;
+		margin-bottom: 32px;
+		@include laptop-sm{
+			font-size: 46px;
+			margin-bottom: 24px;
+			max-width: 560px;
+		}
+		@include phone {
+			font-size: 28px;
+			margin-bottom: 20px;
+		}
+	}
+	&__subtext {
+		font-size: 32px;
+		color: $white;
+		@include laptop-sm{
+			font-size: 28px;
+		}
+		@include phone {
+			font-size: 20px;
+		}
+	}
+}

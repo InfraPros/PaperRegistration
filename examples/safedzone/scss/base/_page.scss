@@ -1,0 +1,36 @@
+html {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 100%;
+	-webkit-overflow-scrolling: touch !important;
+	scroll-behavior: smooth;
+}
+body {
+	font-family: "Heebo", sans-serif;
+	color: $body;
+	overflow: hidden;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch !important;
+	padding: 0;
+	margin: 0;
+	min-height: 100vh;
+}
+
+* {
+	outline: none !important;
+}
+a{
+	text-decoration: none!important;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: "Raleway";
+}
+.container{
+	@include hdplus{
+		max-width: 1600px;
+	}
+}

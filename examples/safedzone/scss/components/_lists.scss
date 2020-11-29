@@ -1,0 +1,28 @@
+.features__list{
+  padding-left: 25px;
+  margin: 0;
+  list-style: none;
+  &__item{
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 16px;
+    @include laptop{
+      font-size: 20px;
+    }
+    @include laptop-sm{
+      font-size: 16px;
+    }
+    &:before{
+      content: "\2022";
+      color: $medium-blue;
+      font-weight: bold;
+      font-size: 25px;
+      display: inline-block; 
+      width: 1em;
+      margin-left: -1em;
+      @include laptop{
+        font-size: 20px;
+      }
+    }
+  }
+}

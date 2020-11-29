@@ -1,0 +1,32 @@
+.button{
+  font-size: 30px;
+  line-height: 100%;
+  text-transform: uppercase;
+  padding: 29px 94px;
+  border-radius: 50px;
+  border: 2px solid transparent;
+  display: inline-block;
+  @include laptop-sm{
+    font-size: 24px;
+    padding: 24px 80px;
+  }
+  @include tablet{
+    font-size: 20px;
+    padding: 20px 64px;
+  }
+  @include phone{
+    font-size: 18px;
+    padding: 16px 48px;
+  }
+  &__white{
+    &-outline{
+      border: 2px solid $white;
+      color: $white!important;
+      background: transparent;
+    }
+  }
+  &__black{
+    background: $body;
+    color: $white!important;
+  }
+}

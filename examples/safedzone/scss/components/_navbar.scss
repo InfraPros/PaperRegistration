@@ -1,0 +1,22 @@
+.navbar {
+	&-brand {
+		@include phone {
+			width: 125px;
+		}
+	}
+	.nav-item {
+		padding: 0 8px;
+		font-size: 20px;
+		&-partition {
+			color: $light-blue;
+			@include tablet {
+				display: none;
+			}
+		}
+	}
+	.nav-link {
+		font-family: "Raleway";
+		font-weight: 500;
+		color: $body !important;
+	}
+}

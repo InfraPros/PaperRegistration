@@ -1,0 +1,30 @@
+@mixin hd {
+	@media (max-width: $hd) {
+		@content;
+	}
+}
+@mixin laptop {
+	@media (max-width: $laptop) {
+		@content;
+	}
+}
+@mixin laptop_sm {
+	@media (max-width: $laptop_sm) {
+		@content;
+	}
+}
+@mixin tablet {
+	@media (max-width: $tablet) {
+		@content;
+	}
+}
+@mixin phone {
+	@media (max-width: $phone) {
+		@content;
+	}
+}
+@mixin hdplus {
+	@media (min-width: $hdplus) {
+		@content;
+	}
+}
